@@ -216,7 +216,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "bangumi",
 	},
 	VNDB: {
-		name: "VNDB",
+		name: "galgame记录",
 		url: "/vndb/",
 		icon: "material-symbols:chrome-reader-mode-rounded",
 		pageKey: "vndb",
