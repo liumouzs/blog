@@ -18,7 +18,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	playMode: "list",
 
 	// 是否显启用歌词
-	showLyrics: false,
+	showLyrics: true,
 
 	// Meting API 配置
 	meting: {
@@ -45,24 +45,25 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// lrc: "/assets/music/lrc/使一颗心免于哀伤-哼唱.lrc",
 	// 2. 或者直接填入歌词字符串内容
 	// lrc: "[00:00.00]歌词内容...",
+	
+	
 	local: {
 		playlist: [
-			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
-				lrc: "",
-			},
-		
+			
 			{
 				name: "我不难过",
 				artist: "孙燕姿",
-				url: "/assets/music/我不难过-孙燕姿#1eWt.mp3",
+				url: "/assets/music/我不难过-孙燕姿.mp3",
 				cover: "/assets/music/cover/2517328443.jpg",
 				lrc: "/assets/music/lrc/我不难过-孙燕姿.lrc",
 			},
-		
+			{
+				name: "匿名的好友",
+				artist: "杨丞琳",
+				url: "/assets/music/匿名的好友-杨丞琳.mp3",
+				cover: "/assets/music/cover/3913747026.jpg",
+				lrc: "/assets/music/lrc/匿名的好友-杨丞琳.lrc",
+			},
 		
 		
 		
