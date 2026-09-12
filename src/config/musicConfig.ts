@@ -12,7 +12,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	mode: "local",
 
 	// 默认音量 (0-1)
-	volume: 0.7,
+	volume: 0.6,
 
 	// 播放模式：'list'=列表循环, 'one'=单曲循环, 'random'=随机播放
 	playMode: "list",
@@ -54,6 +54,18 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
+		
+			{
+				name: "我不难过",
+				artist: "孙燕姿",
+				url: "/assets/music/我不难过-孙燕姿#1eWt.mp3",
+				cover: "/assets/music/cover/2517328443.jpg",
+				lrc: "/assets/music/lrc/我不难过-孙燕姿.lrc",
+			},
+		
+		
+		
+		
 		],
 	},
 };
